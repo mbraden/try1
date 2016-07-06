@@ -6,6 +6,24 @@ using System.Threading.Tasks;
 
 namespace try1
 {
+
+    public class Participant
+    {
+        public string ParticipantID { get; set; }
+        public string Password { get; set; }
+
+        public Participant()
+        {
+            this.ParticipantID = " ";
+            this.Password = " ";
+
+
+        }
+
+
+    }
+
+
     public class Weather
     {
 

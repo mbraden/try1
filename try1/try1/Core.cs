@@ -13,6 +13,16 @@ namespace try1
         public static async Task<Weather> GetWeather(string zipCode)
         {
             //Sign up for a free API key at http://openweathermap.org/appid
+            string qs = "https://athena.aegisgroup.com/mikemisc/json_getParticipantInfo.php?pid=78045";
+
+            dynamic pinfo = await DataServices.getDataFromService(qs).ConfigureAwait(false);
+            Participant participant = new Participant();
+            participant.ParticipantID = (string)pinfo[0]["participantid"];
+            participant.Password = (string)pinfo[0]["password"];
+
+
+
+
             string key = "0c471aaf8d6a350dad9634c7a4820c17";
             string queryString = "http://api.openweathermap.org/data/2.5/weather?zip="
                 + zipCode + ",us&appid=" + key + "&units=imperial";

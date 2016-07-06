@@ -130,7 +130,6 @@ Global
 		{C0072D32-429B-4AEB-8DE1-EC08F70A6488}.Debug|Any CPU.ActiveCfg = Debug|iPhone
 		{C0072D32-429B-4AEB-8DE1-EC08F70A6488}.Debug|ARM.ActiveCfg = Debug|iPhone
 		{C0072D32-429B-4AEB-8DE1-EC08F70A6488}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{C0072D32-429B-4AEB-8DE1-EC08F70A6488}.Debug|iPhone.Build.0 = Debug|iPhone
 		{C0072D32-429B-4AEB-8DE1-EC08F70A6488}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
 		{C0072D32-429B-4AEB-8DE1-EC08F70A6488}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
 		{C0072D32-429B-4AEB-8DE1-EC08F70A6488}.Debug|x64.ActiveCfg = Debug|iPhone
